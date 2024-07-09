@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #EEF3F5;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.link{
+	padding: 10px;
+	color: #3D76E9;
+	text-decoration: none;
+}
+
+.contenedor{
+    margin: 40px;
+	width: 90%;
+	max-width: 400px;
+	background: #fff;
+	padding: 40px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.subtitulo{
+	margin: 20px 0;
+}
+
+/** Formulario */
+input{
+    padding: 10px;
+	border: 2px solid rgba(0,0,0,.2);
+	border-radius: 3px;
+	width: 100%;
+	margin-bottom: 10px;
+	transition: .2s ease all;
+	outline: none;
+	text-align: center;
+	
+	&:focus {
+		border: 2px solid #3D76E9;
+	}
+}
+
+.btn-registro{
+    padding: 10px 30px;
+	border: none;
+	cursor: pointer;
+	border-radius: 3px;
+	transition: .3s ease all;
+	outline: none;
+	background: #3D76E9;
+	color: #fff;
+	font-size: 12px;
+}
+
+.btn-actualizar{
+	background: #236756;
+}
+
+.btn-eliminar{
+	background: #6a2525;
+}
+
+
